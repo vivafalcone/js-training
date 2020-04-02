@@ -8,7 +8,11 @@ tanaka.textContent = watanabe;
 const hantei = (name) => {
     let tanakaInner = tanaka.innerHTML;
     let result = tanakaInner == name;
-    console.log(result);
+    return result;
 }
 
 hantei("渡部");
+
+let isEqual = hantei("渡部");
+
+console.log(isEqual);
