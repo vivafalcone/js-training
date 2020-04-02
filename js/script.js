@@ -1,3 +1,5 @@
-let teruki = "てるき";
+let tanaka = document.getElementById("tanaka");
 
-console.log(teruki + "です");
+let inner = tanaka.textContent;
+
+console.log(inner);
