@@ -1,5 +1,5 @@
 let tanaka = document.getElementById("tanaka");
 
-let inner = tanaka.textContent;
+let watanabe = "渡部";;
 
-console.log(inner);
+tanaka.textContent = watanabe;
