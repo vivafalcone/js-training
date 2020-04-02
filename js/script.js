@@ -5,11 +5,10 @@ let watanabe = "渡部";
 
 tanaka.textContent = watanabe;
 
-const hantei = () => {
+const hantei = (name) => {
     let tanakaInner = tanaka.innerHTML;
-    let result = tanakaInner == "田中";
+    let result = tanakaInner == name;
     console.log(result);
-    
 }
 
-hantei();
+hantei("渡部");
